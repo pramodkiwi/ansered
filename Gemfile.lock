@@ -165,7 +165,6 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-  pg
   pry
   puma (~> 2.14)
   rails (= 4.2.1)
