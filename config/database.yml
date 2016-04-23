@@ -20,11 +20,11 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
-  host: ansered-qa.ccwdtgzrndhl.us-west-2.rds.amazonaws.com
+  host: localhost
   timeout: 5000
   port: 5432
-  username: dbmaster
-  password: LDFQErVlPR1tBSvu
+  username: kiwitech
+  password: kiwitech
 
 qa:
   <<: *default
