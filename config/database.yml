@@ -20,15 +20,15 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
-  host: localhost
+  host: ansered-qa.ccwdtgzrndhl.us-west-2.rds.amazonaws.com
   timeout: 5000
   port: 5432
-  username: kiwitech
-  password: kiwitech
+  username: dbmaster
+  password: LDFQErVlPR1tBSvu
 
-development:
+qa:
   <<: *default
-  database: Jobpods-AnserED-Web_development
+  database: ansered
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
